@@ -1,0 +1,78 @@
+{
+  "Personnel": [
+    {
+      "nom": "Derome",
+      "prenom": "Paul",
+      "departement": "Sciences",
+      "taches": "Derome"
+    },
+    {
+      "nom": "Chagnon",
+      "prenom": "Phil",
+      "departement": "Informatique",
+      "taches": "Derome"
+    },
+    {
+      "nom": "Jonquas",
+      "prenom": "Diane",
+      "departement": "Informatique",
+      "taches": "Derome"
+    },
+    {
+      "nom": "Chan",
+      "prenom": "Martin",
+      "departement": "TI",
+      "taches": "Derome"
+    },
+    {
+      "nom": "Desmarais",
+      "prenom": "Sophie",
+      "departement": "Philo",
+      "taches": "Derome"
+    },
+    {
+      "nom": "Tao",
+      "prenom": "Charles",
+      "departement": "Philo",
+      "taches": "Derome"
+    }
+  ],
+  "Membre": [
+    {
+      "nom": "Tremblay",
+      "prenom": "Achaire",
+      "departement": "Sciences",
+      "taches": "Derome"
+    },
+    {
+      "nom": "Gagnon",
+      "prenom": "Abelin",
+      "departement": "Informatique",
+      "taches": "Derome"
+    },
+    {
+      "nom": "Roy",
+      "prenom": "Abondance",
+      "departement": "Informatique",
+      "taches": "Derome"
+    },
+    {
+      "nom": "Bouchard",
+      "prenom": "Abraham",
+      "departement": "TI",
+      "taches": "Derome"
+    },
+    {
+      "nom": "Gauthier",
+      "prenom": "Absalon",
+      "departement": "Philo",
+      "taches": "Derome"
+    },
+    {
+      "nom": "Morin",
+      "prenom": "Acace",
+      "departement": "Philo",
+      "taches": "Derome"
+    }
+  ]
+}

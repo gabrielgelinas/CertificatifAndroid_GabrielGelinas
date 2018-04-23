@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".DetailEmploye"
+    android:layout_gravity="center">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <TableRow android:layout_width="match_parent">
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:padding="8dp"
+            android:text="Prenom : "
+            android:textSize="24dp"/>
+
+        <TextView
+            android:id="@+id/txt_prenom"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:padding="8dp"
+            android:textSize="24dp"
+            android:text="---"
+            android:textAlignment="textEnd"/>
+
+    </TableRow>
+
+
+    <TableRow android:layout_width="match_parent">
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:padding="8dp"
+            android:text="Nom : "
+            android:textSize="24dp"/>
+
+        <TextView
+            android:id="@+id/txt_nom"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:padding="8dp"
+            android:textSize="24dp"
+            android:text="---"
+            android:textAlignment="textEnd"/>
+
+    </TableRow>
+
+    <TableRow android:layout_width="match_parent">
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:padding="8dp"
+            android:text="Département : "
+            android:textSize="24dp"/>
+
+        <TextView
+            android:id="@+id/txt_departement"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:padding="8dp"
+            android:textSize="24dp"
+            android:text="---"
+            android:textAlignment="textEnd"/>
+
+    </TableRow>
+
+    <TableRow android:layout_width="match_parent">
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:padding="8dp"
+            android:text="Tâches : "
+            android:textSize="24dp"/>
+
+        <TextView
+            android:id="@+id/txt_taches"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:padding="8dp"
+            android:textSize="24dp"
+            android:text="---"
+            android:textAlignment="textEnd"/>
+
+    </TableRow>
+
+    <TableRow android:layout_width="match_parent">
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:padding="8dp"
+            android:text="Fonction : "
+            android:textSize="24dp"/>
+
+        <TextView
+            android:id="@+id/txt_fonction"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:padding="8dp"
+            android:textSize="24dp"
+            android:text="---"
+            android:textAlignment="textEnd"/>
+
+    </TableRow>
+
+    </TableLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    app:layout_constraintBottom_toBottomOf="parent"
+    android:paddingBottom="16dp">
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Retour"
+    android:onClick="Retour"
+    />
+</LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
